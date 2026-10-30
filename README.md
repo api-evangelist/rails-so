@@ -64,5 +64,110 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-rails-so is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://rails.so/
+Rails.so provides AI-powered agents that integrate directly into ChatGPT and Claude, enabling teams to automate workflows, manage communications, and access data across tools like Gmail and Google Calendar. The platform offers a suite of specialized agents such as Rolodex, Invoice Chaser, and custom agents for sales, research, and scheduling, all operating within the AI interface while keeping company data private. Early access is available via sign‑up, and the service emphasizes privacy, data security, and seamless AI collaboration.
+
+**Areas:** AI · Automation · Productivity · Collaboration · ChatGPT · Claude · Company
+
+## rails-so on APIs.io
+
+Everything profiled for rails-so is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rails-so/](https://apis.io/providers/rails-so/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Rails Agent API](https://apis.io/apis/rails-so/rails-agent-api/) — Public HTTP envelope for admitted agent apps.
+- [Agent Rails public MCP and OAuth HTTP API API](https://apis.io/apis/rails-so/agent-rails-public-mcp-and-oauth-http-api-api/) — Public HTTP envelope for admitted agent apps. OAuth issuer is rails.so; each MCP resource has its own audience. Tool names and schemas are release-bound and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [AuthorizationServerMetadata](https://apis.io/schemas/rails-so/rails-so-authorization-server-metadata/)
+- [RegistrationRequest](https://apis.io/schemas/rails-so/rails-so-registration-request/)
+- [RegistrationResponse](https://apis.io/schemas/rails-so/rails-so-registration-response/)
+- [TokenResponse](https://apis.io/schemas/rails-so/rails-so-token-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Rails So Context](https://apis.io/jsonld/rails-so/rails-so-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [rails-so API Rules](https://apis.io/rules/rails-so/rails-so-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rails So Domain Security](https://apis.io/security/rails-so/rails-so-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rails.so/)
+- [Documentation](https://rails.so/learn)
+- [Terms of service](https://rails.so/terms)
+- [Privacy policy](https://rails.so/privacy)
+
+## API Evangelist rating
+
+**Kin Score 40.5** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 52.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 16.0 |
+| Access clarity | 34.2 |
+
+**Agent readiness 44.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rails-so/](https://apis.io/providers/rails-so/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for rails-so: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rails-so/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
